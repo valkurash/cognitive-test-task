@@ -1,14 +1,16 @@
+// Напиши фабрику самого простого генератора строковых ID
+
 function* idMaker(letter) {
-    var index = 0;
-    while (true)
-        yield `${letter}_${++index}`;
+  var index = 0;
+  while (true)
+    yield `${letter}_${++index}`;
 }
 
 function make(letter) {
-    var gen = idMaker(letter);
-    return function() {
-        return gen.next().value;
-    }
+  var gen = idMaker(letter);
+  return function() {
+    return gen.next().value;
+  }
 }
 
 var foo = make('A')
