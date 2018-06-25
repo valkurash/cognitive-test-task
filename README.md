@@ -14,7 +14,7 @@
 
 ## Задания
 
-- [strGenerator](/valkurash/cognitive-test-task/blob/master/str-gen.js)
-- [debounce](/valkurash/cognitive-test-task/blob/master/debounce.js)
-- [Promise / generator](/valkurash/cognitive-test-task/blob/master/promises.js) – накидать реализацию логики, возможно с promise, (с генераторами | с async/await)
-- [drag-n-drop](/valkurash/cognitive-test-task/blob/master/solution.js)
+- [strGenerator](/str-gen.js)
+- [debounce](/debounce.js)
+- [Promise / generator](/promises.js) – накидать реализацию логики, возможно с promise, (с генераторами | с async/await)
+- [drag-n-drop](/solution.js)
